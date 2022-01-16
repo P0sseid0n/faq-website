@@ -1,19 +1,7 @@
-# faq-cataline
+## FAQ
 
-## Project setup
-```
-npm install
-```
+Projeto passado pelo curso da Cataline
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+### Feito Em Vue usando VueEx
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Foto do projeto](./Screenshot.png)

@@ -1,26 +1,59 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+	<BoxBase />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import BoxBase from './components/BoxBase.vue'
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+	name: 'App',
+	components: { BoxBase },
 }
 </script>
 
 <style>
+body {
+	height: 100vh;
+}
+
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+	display: grid;
+
+	align-content: center;
+
+	height: 100%;
+	width: 100%;
+
+	background-color: rgb(240, 240, 250);
+}
+
+h1 {
+	font-size: 20px;
+	font-weight: bold;
+}
+
+h3 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+p {
+	font-size: 13px;
+	font-weight: normal;
+}
+
+button {
+	background: transparent;
+	color: white;
+
+	border: none;
+	outline: none;
+
+	cursor: pointer;
+
+	transition: background 0.3s;
+}
+
+button:hover {
+	background: rgba(255, 255, 255, 0.05);
 }
 </style>
