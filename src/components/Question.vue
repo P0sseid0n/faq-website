@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<header>
-			<button @click="$store.dispatch('setView', 'categories')">
+			<button @click="$store.dispatch('setView', 'category')">
 				<img src="../assets/images/arrow-left.svg" alt="Back" />
 			</button>
 			<h3>{{ question[0] }}</h3>
